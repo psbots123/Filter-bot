@@ -14,7 +14,7 @@ routes = web.RouteTableDef()
 
 @routes.get("/", allow_head=True)
 async def root_route_handler(request):
-    return web.Response(text='<h1 align="center"><a href="https://ps_updates"><b>𝙏𝙃𝙀 𝙋𝙎 𝘽𝙊𝙏𝙎</b></a></h1>', content_type='text/html')
+    return web.Response(text='<h1 align="center"><a href="https://telegram.me/ps_updates"><b>𝙏𝙃𝙀 𝙋𝙎 𝘽𝙊𝙏𝙎</b></a></h1>', content_type='text/html')
 
 
 @routes.get("/watch/{message_id}")
