@@ -38,7 +38,7 @@ async def add_group_admin(client, message):
         user = (await client.get_chat_member(message.chat.id, user_id)).user
     except:
         return await message.reply_text("Can't find the given user in this group.")
-    permissions = ChatPermissions(
+    """permissions = ChatPermissions(
         can_send_messages=True,
         can_send_media_messages=True,
         can_send_polls=True,
@@ -47,11 +47,11 @@ async def add_group_admin(client, message):
         can_change_info=True,
         can_invite_users=True,
         can_pin_messages=True,
-        )
+        )"""
 
     
     try:
-        await client.promote_chat_member(message.chat.id, user_id,permissions)
+        await client.promote_chat_member(message.chat.id, user_id)
     except Exception as e:
         return await message.reply_text(f"I don't have access to add admin.\n\n{e}")
 
