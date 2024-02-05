@@ -1,12 +1,5 @@
-<p align="center">
-  <img src="https://graph.org/file/7238facadd316f613a793.jpg" alt="THE PS AUTO-FILERT BOT Logo">
-</p>
-<h1 align="center">
-  <a href="https://telegram.me/TheMovieProviderBot">THE PS AUTO-FILERT BOT</a>
-</h1>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=WELCOME+TO+THE-PS-AUTOFILTER-BOT;A+SIMPLE+AND+POWERFUL+BOT!;A+BOT+WITH+CUSTOM+URL+SHORTNER;AND+CUSTOM+TUTORIAL!;ALSO+HAVE+STREAM+ONLINE;AND+FAST+DOWNLOAD+FEATURE!;AND+MANY+MORE+FEATURES!)
-</p>
+
 <p align="center">
   <a href="https://github.com/SL-Bots-TG/Auto-Filter-Bot">
     <img src="https://graph.org/file/7238facadd316f613a793.jpg" alt="THE PS AUTO-FILERT BOT Logo">
