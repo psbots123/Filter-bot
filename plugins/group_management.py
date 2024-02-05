@@ -52,8 +52,8 @@ async def add_group_admin(client, message):
     
     try:
         await client.promote_chat_member(message.chat.id, user_id,permissions=permissions)
-    except:
-        return await message.reply_text("I don't have access to add admin.")
+    except Exception as e:
+        return await message.reply_text(f"I don't have access to add admin.\n\n{e}")
 
     await message.reply_text(f'Successfully added {user.mention} as admin to {message.chat.title}')
 
