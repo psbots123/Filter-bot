@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/SL-Bots-TG/Auto-Filter-Bot">
-    <img src="https://graph.org/file/7238facadd316f613a793.jpg" alt="Auto Filter Bot">
+    <img src="https://graph.org/file/7238facadd316f613a793.jpg" alt="THE PS AUTO-FILERT BOT Logo">
   </a>
 </p>
 <h1 align="center">
