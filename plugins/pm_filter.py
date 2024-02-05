@@ -421,6 +421,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "my_about":
+        me = await client.get_me()
         buttons = [[
             InlineKeyboardButton('📊 sᴛᴀᴛᴜs', callback_data='stats'),
             InlineKeyboardButton('ᴅɪꜱᴄʟᴀɪᴍᴇʀ', callback_data='source')
@@ -432,7 +433,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.MY_ABOUT_TXT.format(client.get_me().mention),
+            text=script.MY_ABOUT_TXT.format(me.mention),
             #text=script.MY_ABOUT_TXT.format(client.mention),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
